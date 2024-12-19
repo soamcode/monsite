@@ -1,0 +1,113 @@
+/* 
+Page de style pour le premier site en html/css.
+NSI StCharles
+
+*/
+
+ 
+html{ 
+    font-size: 20px; /* taille de référence des fontes */
+    background-color: #1A237E;
+}
+
+header{
+    height: 320px; /* on impose la hauteur du header pour la photo */
+    background-image: url('../images/imagearriereplan.jpg');
+    text-align:center;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.conteneur{ /* contiendra les éléments à disposer en "grille" */
+    display: grid;
+    grid-template-columns: 20% 80%;
+    margin-bottom: 1em;
+    margin-top: 5%;
+}
+.rond{	
+	border: 10px ridge #aaa;
+	border-radius: 1% 1%  1% 1%;
+	}
+nav{
+    
+    border: 2px solid #b0b0b0; /* bordure pour mieux situer l'élément dans cet exemple */
+    padding: 1em;
+}
+main{
+    border: 10px ridge #FFD700; /* bordure pour mieux situer l'élément dans cet exemple */
+    padding: 5em;
+}
+
+
+body{
+    width: 80%; /* occupe 70% de la page en largeur */
+    margin: 0 auto; /* auto permet ici de centrer le body en laissant marge gauche et marge droite identiques */
+}
+
+h1{
+    font-size: 2rem; /* 2rem = 2 fois la taille de référence, soit 40px */
+    padding-top: 1rem;  
+    color: #FFD700;
+}
+h2{
+    font-size: 1.5rem;
+    border: 5px solid #B0B0B0;
+    color: #b0b0b0;
+    text-align:center;
+    border-radius: 20px;
+}
+.h2enor{
+    font-size: 1.5rem;
+    border: 5px solid #FFD700;
+    color: #FFD700;
+    text-align:center;
+    border-radius: 20px;
+}
+h3{
+    color: #FFD700;
+}
+p{
+    color: #B0B0B0;
+}
+.por{
+    color: #FFD700;
+}
+
+
+
+footer{
+    text-align:center;
+    margin: 2rem;
+}
+footer a{
+    
+    text-decoration: none;
+    background-color:yellow;
+    color: blue;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+
+a{
+    color: #b0b0b0;
+}
+.aor{
+    color: #FFD700;
+}
+.ligris{
+    color: #B0B0B0;
+}
+.lior{
+    color: #FFD700;
+}
+table, td {
+    border: 5px solid rgb(0, 0, 0);
+    background-color: #B0B0B0;
+    color: #FFD700;
+}
+.tdcouleur{
+    border: 5px solid #B0B0B0;
+    background-color: #000000;
+    color: #FFD700;
+}

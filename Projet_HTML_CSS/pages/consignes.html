@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<meta charset="utf-8">
+	<title>consignes</title>
+	<link rel="stylesheet" href="../css/styles.css">
+</head>
+
+
+<body>
+    
+    
+	<header>
+		<h1>PAGE CONSIGNES </h1>
+	</header>
+
+    <div class="conteneur">
+        <nav class="rond">
+           <h2 class="h2enor">PAGES</h2>
+            <ul>
+                <li class="lior"><a  href="../index.html">Accueil</a></li>
+                <li class="lior"> <a  href="histoire.html">Histoire</a> </li>
+                <li class="lior"> <a  href="favoris.html">Favoris</a></li>
+                <li class="lior"><a  href="sources.html">Sources</a></li>
+            </ul>
+            <h2 class="h2enor">AUTRE LIENS</h2>
+            <ul>
+                <li class="lior"><a href="https://saint-charles-vienne.com/">Institution Saint-Charles</a></li>
+            </ul>
+        </nav>
+        <main>
+	<section>
+        <h2>Objectifs</h2>
+        
+		<p class="por">
+            Vous devez modifier ce mini site web. 
+            Vous avez le droit de modifier le code html et le code css, laissez parler votre imagination !
+        </p>
+        
+        <p class="por">Il vous faudra toutefois respecter les contraintes imposées. </p>
+        <p class="por">Vous serez évalué sur les critères suivants : </p>
+        
+        <ul>
+            <li class="ligris"> Respect des contraintes imposées ci-dessous.</li>
+            <li class="ligris"> Contenu des pages.</li>
+            <li class="ligris"> Travail sur le code html, css. </li>        
+        </ul>
+	</section>
+    
+    
+    <section>
+        <h2>Rendre le projet</h2>
+        
+        
+        
+        <p class="por"> Vous enverrez par mail, avant le 21 novembre 20h, le dossier contenant l'ensemble des fichiers. Ce dossier  
+        sera nommé <code>nom_prenom_projet1</code> puis sera zippé avant d'être envoyer à clemence.rozier@saint-charles-vienne.com.</p>
+        <p class="por">Il s'agit d'un <strong>travail personnel</strong> !</p>
+        
+        
+    
+    </section>
+    
+    
+
+	<section>
+		<h2>Les fichiers et dossiers présents</h2>
+            
+        <p class="por">Votre site contiendra au moins les pages suivantes :</p>
+        
+        <ul>
+            <li class="ligris">la page index.html</li>
+            <li class="ligris">la page histoire.html</li>
+            <li class="ligris">la page favoris.html (celle qui a été réalisée durant les activités en classe)</li>
+            <li class="ligris">la page sources.html</li>
+            <li class="ligris">la page consignes.html</li>
+             
+        </ul>
+        
+        <p class="por">Les noms de ces pages ne doivent pas être modifiés.</p>
+        
+        <p class="por"> Par ailleurs, une page styles.css est déjà présente dans le dossier css/, ainsi qu'un dossier images/. </p>
+    </section>
+        
+        
+        
+        
+    <section>
+        <h2> Le css </h2>
+        
+        <p class="por">
+            Le css de vos pages est à déclarer dans le fichier styles.css.
+            On ne devra trouver aucun style css dans les pages html.
+            Les pages html sont liées à cette feuille de style css 
+            par la présence dans la partie head du code 
+            <code>&lt;link rel="stylesheet" href="css/styles.css"&gt;</code> ou <code>&lt;link rel="stylesheet" href="../css/styles.css"&gt;</code> selon les pages.
+        </p>
+        
+        <p class="por">
+            Le css actuellement présent n'est là que pour vous donner des exemples.
+            Si vous ne le comprenez pas en première lecture, faites des recherches sur le web
+            à partir des noms de propriété utilisés.  
+            
+            Vous pouvez modifier ce css à votre guise.
+        </p>
+        
+        <p class="por">
+            Ce css devra contenir au moins un élément html avec la règle
+            <code>display: grid;</code>.  Il y a en effet une contrainte de structure à respecter
+            (cf ci-dessous).
+            
+            Pour cette partie sur grid, vous vous appuierez bien sûr sur les exemples et exercices
+             du cours.
+        </p>
+        
+        <p class="por">
+            &Eacute;vitez de surcharger vos pages par des couleurs ou des images en excès.
+            Il est préférable de rester sobre : couleurs et images doivent être informatives.
+        </p>
+    </section>
+        
+        
+    <section>
+        <h2>Votre code.</h2>
+        
+        <p class="por">
+            Le code html de chaque page doit être indenté proprement de façon à ce que le 
+            début et la fin de chaque élément apparaisse clairement.
+        </p>
+        
+        <p class="por"> 
+            Le code html devra être vérifié en chargeant vos pages sur 
+            le <a class="aor" href="https://validator.w3.org/#validate_by_upload">w3 validator</a>.
+            Il ne devra rester aucune erreur.
+        </p>
+        <p class="por">
+            Le code css est à contrôler également. Attention la page de validation n'est pas la même :
+            <a class="aor" href="https://jigsaw.w3.org/css-validator/#validate_by_upload">w3 css validator</a>.
+        </p>
+    </section>
+        
+        
+        
+    <section>
+        <h2> Structure des pages</h2>
+            
+        <p class="por">Chaque page devra contenir :</p>
+        
+        <ul>
+            <li class="ligris"> Un header</li>
+            <li class="ligris"> Une partie principale </li>
+            <li class="ligris"> Un footer </li>
+        </ul>
+        
+        <article> 
+            <h3>Partie header</h3>
+            
+            <p class="por">La partie header contiendra (au moins) le titre de la page et une image de fond (à vous
+            de modifier celle qui est actuellement présente). Le header de la page index.html
+            contiendra également votre nom et prénom.</p>
+        </article>
+        
+        <article>
+            <h3>La partie principale</h3>
+        
+            <p class="por">La partie principale sera découpée en deux colonnes (réalisées à l'aide de <code>grid</code>):</p>
+            <ul>
+                <li class="ligris">la colonne la plus large contiendra les informations proprement dites.</li>
+                <li class="ligris">la colonne la plus étroite (à situer à gauche ou à droite comme vous le voulez)
+                contiendra un menu.</li>
+            </ul>
+            
+            <p class="por">Le menu devra contenir pour chaque page : </p>
+            
+                <ul>
+                    <li class="ligris">Un lien vers chacune des autres pages de votre site.</li>
+                    <li class="ligris">Un lien vers le site de saint Charles</li>
+                </ul>
+                
+            
+        </article>
+        
+            
+            
+            
+        <article>
+            <h3>Le footer</h3>
+        
+            <p class="por">Le footer contiendra un lien vers le site du lycée, et une licence d'utilisation de type <a  class="aor" href="https://chooser-beta.creativecommons.org/">Creative Commons</a> (compétence PIX).</p>
+        </article>
+        
+    </section>
+        
+        
+         
+	<section>
+        <h2>Contenu des pages</h2>
+        
+        
+        <article>
+            <h3>La page index.html</h3>
+            
+            <p class="por">Le contenu de cette présente page sera remplacé par votre présentation :</p>
+            
+            <ul>
+                <li class="ligris">Nom, prénom. Votre photo.</li>
+                <li class="ligris">Classe.</li>
+                <li class="ligris">Vos trois spécialités.</li>
+                <li class="ligris">Orientation post-bac</li>
+                <li class="ligris">Vos centres d'intérêt (sport, musique, etc...)</li>
+            </ul>
+            
+            <p class="por"> 
+                Vos nom  et prénom sont à indiquer dans la partie header. Le reste occupera
+                la partie principale de la page. N'oubliez pas de soigner le css.
+            </p>
+            
+            <p class="por">
+                L'image de votre photographie devra bien sûr se trouver dans le dossier prévu
+				<code>images/</code></p>
+        
+        </article>
+        
+        
+        <article>
+            <h3>La page histoire.html</h3>
+        
+            <p class="por"> 
+                Il s'agit d'une page sur l'histoire de l'informatique. 
+                Vous choisirez un <strong>thème de l'histoire de l'informatique</strong> en lien avec le programme de NSI :
+            </p>
+            
+            <img src="../images/Histoire_Info.png" alt=".">
+            
+            <p class="por">
+                Il sera possible de créer plusieurs pages si vous en ressentez la nécessité 
+                pour un exposé clair.
+            </p>
+            
+            
+            
+            
+            <p class="por"> 
+                Vous présenterez également une <strong>frise historique</strong> (la forme peut être un simple tableau par
+                exemple, une image faite par vos soin, une liste ... à vous de décider). 
+                Dans cette frise, vous présenterez en priorité les dates clés en lien avec le thème que vous aurez choisi.
+            </p>
+            <p class="por">
+                Les thèmes possibles sont :
+                <ul>
+                    <li class="ligris">Les concepts informatiques</li>
+                    <li class="ligris">Les machines</li>
+                    <li class="ligris">Les programmes</li>
+                    <li class="ligris">Les applications</li>
+                </ul>
+        </article>
+        
+        
+        
+        
+        <article>
+            <h3>La page sources.html</h3>
+            
+            <p class="por"> 
+                Cette page contiendra des liens sur les sources utilisées.
+                
+            </p>
+            
+            <ul>
+            
+                <li class="ligris">    
+                    Les sources pour les points d'histoire. Attention, il n'est pas question de se contenter de copier-coller l'une de ces références.
+                    Croisez les informations et réécrivez avec vos mots.
+                </li>
+                <li class="ligris">
+                    Les sources utilisées pour le code html, css. 
+                </li>
+            </ul>
+            
+            
+            <p class="por"> 
+                Les  sources ne doivent pas être uniquement un lien. Pour chaque source,
+                décrivez brièvement ce qu'elle vous a apporté.
+            </p>
+            
+        </article>
+    
+    </section>	 
+    
+     <p class="por">Ces consignes sont à retrouver sur la page <a class="aor" href="pages/consignes.html">consignes.html</a></p>
+    </main>
+    
+</div>
+
+
+
+	<footer>
+        <a  href="https://www.facebook.com/profile.php?id=100063493843408">FB Saint Charles</a>
+        <p  class="por" >This work is licensed under <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-ND 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="."><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt="."><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt="."><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1" alt="."></a></p> 
+	</footer>
+
+
+	 
+
+</body>
+</html>
